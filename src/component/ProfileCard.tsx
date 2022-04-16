@@ -6,12 +6,10 @@ import { Typography } from 'antd';
 import './ProfileCard.css'
 import ProfileDetail from './ProfileDetail';
 
-const ProfileCard = (profileCardProps: ProfileCardProps) => {
+const ProfileCard = (props: ProfileCardProps) => {
   const { Title, Text, Link } = Typography;
-  const { User } = profileCardProps;
+  const { User } = props;
   const [isShowProfileDetail, setIsShowProfileDetail] = useState(false);
-
-
 
   return <Card className='profile-card'
     actions={[
@@ -63,9 +61,9 @@ const ProfileCard = (profileCardProps: ProfileCardProps) => {
     >
       <Button id="detailDrawerButton" onClick={() => setIsShowProfileDetail(false)}>
         <Text strong>Back</Text>
-      </Button>
-      <Divider></Divider>
-      <ProfileDetail {...profileCardProps.Detail} />
+      </Button>  
+      <Divider dashed></Divider>
+      <ProfileDetail {...props.Detail} />
     </Drawer>
   </Card >;
 }

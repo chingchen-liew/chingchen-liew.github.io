@@ -1,9 +1,21 @@
 import React from 'react';
-import Text from 'antd/lib/typography/Text';
-import { UserBackground } from '../model/UserBackground';
+import { Typography } from 'antd';
+import { UserBackgroundStoryProps } from '../props/UserBackgroundStoryProps';
 
-const UserBackgroundStory = (stories : UserBackground[]) => {
-  return <Text>Hi</Text>;
+const UserBackgroundStory = (props: UserBackgroundStoryProps) => {
+  const { Title, Text } = Typography;
+  const { Stories } = props;
+
+  return <>
+    {
+      Stories.map(s => {
+        return <>
+          <Title underline level={5}>{s.SectionTitle}</Title>
+          <Text>{s.Content}</Text>
+        </>
+      })
+    }
+  </>;
 }
 
 export default UserBackgroundStory;

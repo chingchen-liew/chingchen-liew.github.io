@@ -1,7 +1,7 @@
-import React from 'react';
-import { UserSkillset } from '../model/UserSkillset';
+import React from 'react'; 
+import { UserSkillsetsProps } from '../props/UserSkillsetsProps';
 
-const UserSkillsets = (skillsets: UserSkillset[]) => {
+const UserSkillsets = (props: UserSkillsetsProps) => {
   return <></>;
 }
 

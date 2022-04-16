@@ -13,19 +13,19 @@ const ProfileDetail = (profileDetailProps: ProfileDetailProps) => {
     <Tabs centered type="card">
       <TabPane tab="Background" key="1">
         {BackgroundStories ?
-          <UserBackgroundStory {...BackgroundStories} />
+          <UserBackgroundStory Stories={BackgroundStories} />
           : <Empty />
         }
       </TabPane>
       <TabPane tab="Career" key="2">
         {CareerJourney ?
-          <UserCareerJourney {...CareerJourney} />
+          <UserCareerJourney CareerEvents={CareerJourney} />
           : <Empty />
         }
       </TabPane>
       <TabPane tab="Skillsets" key="3">
         {Skillsets ?
-          <UserSkillsets {...Skillsets} />
+          <UserSkillsets Skillsets={Skillsets} />
           : <Empty />
         }
       </TabPane>

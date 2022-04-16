@@ -1,7 +1,7 @@
-import React from 'react';
-import { UserCareerEvent } from '../model/UserCareerEvent';
+import React from 'react'; 
+import { UserCareerJourneyProps } from '../props/UserCareerJourneyProps';
 
-const UserCareerJourney = (careerEvents: UserCareerEvent[]) => {
+const UserCareerJourney = (props: UserCareerJourneyProps) => {
   return <></>;
 }
 
