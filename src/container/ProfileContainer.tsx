@@ -8,7 +8,8 @@ const ProfileContainer = () => {
   const myProfile: ProfileCardProps = {
     User: ChingChenProfileData.Info,
     Detail: {
-      BackgroundStories: ChingChenProfileData.Background
+      BackgroundStories: ChingChenProfileData.Background,
+      CareerJourney: ChingChenProfileData.Career
     }
   };
 

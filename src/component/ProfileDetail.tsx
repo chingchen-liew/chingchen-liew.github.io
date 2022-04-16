@@ -7,8 +7,7 @@ import UserSkillsets from './UserSkillsets';
 
 const ProfileDetail = (profileDetailProps: ProfileDetailProps) => {
   const { TabPane } = Tabs;
-  const { BackgroundStories, Skillsets, CareerJourney } = profileDetailProps;
-
+  const { BackgroundStories, Skillsets, CareerJourney } = profileDetailProps; 
   return <div className="card-container">
     <Tabs centered type="card">
       <TabPane tab="Background" key="1">

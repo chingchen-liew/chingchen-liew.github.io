@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Image, Card, Divider, Avatar, Tooltip, Button, Drawer } from 'antd'
-import { LinkedinFilled, GithubFilled, MailFilled } from '@ant-design/icons';
+import { LinkedinFilled, GithubFilled, MailFilled, DownOutlined, ProfileOutlined } from '@ant-design/icons';
 import { ProfileCardProps } from '../props/ProfileCardProps';
 import { Typography } from 'antd';
 import './ProfileCard.css'
@@ -43,7 +43,9 @@ const ProfileCard = (props: ProfileCardProps) => {
     <Text>{User.Description}</Text>
     <br></br>
     <br></br>
-    <Button type="dashed" onClick={() => setIsShowProfileDetail(true)}><Text className='moreDetailsText' strong>More details!</Text></Button>
+    <Button type="dashed" onClick={() => setIsShowProfileDetail(true)}>
+      <Text className='moreDetailsText' strong> <ProfileOutlined /> More details!</Text>
+    </Button>
 
     {/* Draw for the user details 
     /// MUST HAVE: destroyOnClose 
@@ -60,9 +62,9 @@ const ProfileCard = (props: ProfileCardProps) => {
       key="bottom"
     >
       <Button id="detailDrawerButton" onClick={() => setIsShowProfileDetail(false)}>
-        <Text strong>Back</Text>
-      </Button>  
-      <Divider dashed></Divider>
+        <Text strong>Close <DownOutlined /></Text>
+      </Button>
+      <div style={{ height: "1em" }}></div>
       <ProfileDetail {...props.Detail} />
     </Drawer>
   </Card >;
