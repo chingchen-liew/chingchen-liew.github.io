@@ -97,8 +97,8 @@ export const ChingChenProfileData: ChingChenProfile = {
     {
       SectionTitle: "2021",
       Description: [
-        "CI/CD pipeline with on-prem & cloud technology.",        
-        "Hospital Information System (HIS) ugrade implementation.",
+        "CI/CD pipeline with on-prem & cloud technology.",
+        "Hospital Information System (HIS) upgrade implementation.",
         "Business Intelligence project in Healthcare industry.",
         "End-to-end pipeline from data ingestion to data visualisation.",
       ],
@@ -114,12 +114,67 @@ export const ChingChenProfileData: ChingChenProfile = {
   ],
   Skillsets: [
     {
+      Category: "Programming Language",
+      Skills: [
+        { Skill: "C#", ReferenceLink: "" },
+        { Skill: "VB.Net", ReferenceLink: "" },
+        { Skill: "Javascript", ReferenceLink: "" },
+        { Skill: "Typescript", ReferenceLink: "" },
+        { Skill: "Python 3+", ReferenceLink: "" },
+        { Skill: "SQL", ReferenceLink: "" },
+      ]
+    },
+    {
+      Category: "Database",
+      Skills: [
+        { Skill: "Microsoft SQL Server", ReferenceLink: "" },
+        { Skill: "MySQL", ReferenceLink: "" },
+        { Skill: "Oracle SQL", ReferenceLink: "" },
+        { Skill: "Snowflake", ReferenceLink: "https://www.snowflake.com/cloud-data-platform/" },
+        { Skill: "Azure SQL Database", ReferenceLink: "" },
+        { Skill: "SQLite", ReferenceLink: "" }, 
+        { Skill: "ETL", ReferenceLink: "https://www.ibm.com/cloud/learn/etl" },
+        { Skill: "ELT", ReferenceLink: "https://www.ibm.com/cloud/learn/elt" },
+        { Skill: "Data Warehouse", ReferenceLink: "" },
+        { Skill: "Relational DB", ReferenceLink: "" },
+        { Skill: "NoSQL", ReferenceLink: "" }, 
+      ]
+    },
+    {
+      Category: "Software Development",
+      Skills: [
+        { Skill: ".Net Framework", ReferenceLink: "" },
+        { Skill: ".Net Core / .Net 5+", ReferenceLink: "" },
+        { Skill: ".Net Standard", ReferenceLink: "https://docs.microsoft.com/en-us/dotnet/standard/net-standard" },
+        { Skill: "WinForms", ReferenceLink: "https://docs.microsoft.com/en-us/dotnet/desktop/winforms/overview" },
+        { Skill: "Xamarin", ReferenceLink: "https://dotnet.microsoft.com/en-us/apps/xamarin" }, 
+      ]
+    },
+    {
       Category: "Web Development",
       Skills: [
-        {
-          Skill: "",
-          ReferenceLink: ""
-        }
+        { Skill: "ASP.Net", ReferenceLink: "" },
+        { Skill: "ASP.Net Core", ReferenceLink: "" },
+        { Skill: "Responsive Web Design", ReferenceLink: "https://www.w3schools.com/css/css_rwd_intro.asp" },
+        { Skill: "Bootstrap", ReferenceLink: "https://getbootstrap.com/" },
+        { Skill: "jQuery", ReferenceLink: "https://jquery.com/" },
+        { Skill: "ReactJS", ReferenceLink: "https://reactjs.org/" },
+        { Skill: "REST API", ReferenceLink: "" }, 
+      ]
+    },
+    {
+      Category: "Cloud",
+      Skills: [
+        { Skill: "AWS", ReferenceLink: "https://aws.amazon.com/" },
+        { Skill: "Azure", ReferenceLink: "https://azure.microsoft.com/en-us/" },
+      ]
+    },
+    {
+      Category: "Etc",
+      Skills: [
+        { Skill: "Docker", ReferenceLink: "https://www.docker.com/" },
+        { Skill: "PowerBI", ReferenceLink: "" },
+        { Skill: "Version Control", ReferenceLink: "" }, 
       ]
     }
   ]
