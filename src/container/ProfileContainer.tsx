@@ -9,7 +9,8 @@ const ProfileContainer = () => {
     User: ChingChenProfileData.Info,
     Detail: {
       BackgroundStories: ChingChenProfileData.Background,
-      CareerJourney: ChingChenProfileData.Career
+      CareerJourney: ChingChenProfileData.Career,
+      Skillsets: ChingChenProfileData.Skillsets
     }
   };
 

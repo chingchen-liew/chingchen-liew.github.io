@@ -163,15 +163,10 @@ export const ChingChenProfileData: ChingChenProfile = {
       ]
     },
     {
-      Category: "Cloud",
+      Category: "Cloud & Others",
       Skills: [
         { Skill: "AWS", ReferenceLink: "https://aws.amazon.com/" },
         { Skill: "Azure", ReferenceLink: "https://azure.microsoft.com/en-us/" },
-      ]
-    },
-    {
-      Category: "Etc",
-      Skills: [
         { Skill: "Docker", ReferenceLink: "https://www.docker.com/" },
         { Skill: "PowerBI", ReferenceLink: "" },
         { Skill: "Version Control", ReferenceLink: "" }, 
