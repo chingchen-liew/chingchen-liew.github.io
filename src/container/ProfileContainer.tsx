@@ -15,7 +15,7 @@ const ProfileContainer = () => {
   };
 
   return (
-    <section id="profileContainer">
+    <section id="profileContainer">      
       <ProfileCard {...myProfile} />
     </section>
   );

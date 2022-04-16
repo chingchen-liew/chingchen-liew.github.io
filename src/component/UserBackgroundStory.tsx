@@ -6,17 +6,17 @@ const UserBackgroundStory = (props: UserBackgroundStoryProps) => {
   const { Title, Paragraph } = Typography;
   const { Stories } = props;
 
-  return <>
-    {
-      Stories.map(s => {
-        return <>
-          <Title underline level={5}>{s.SectionTitle}</Title>
-          <Paragraph>{s.Content}</Paragraph>
-          <br></br>
-        </>
-      })
-    }
-  </>;
+  let backgroundStories: any = [];
+
+  Stories.forEach(s => {
+    backgroundStories.push(<div key={Stories.indexOf(s)} >
+      <Title underline level={5}>{s.SectionTitle}</Title>
+      <Paragraph>{s.Content}</Paragraph>
+      <br></br>
+    </div>);
+  })
+
+  return <>{backgroundStories}</>;
 }
 
 export default UserBackgroundStory;

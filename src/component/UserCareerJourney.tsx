@@ -14,7 +14,7 @@ const UserCareerJourney = (props: UserCareerJourneyProps) => {
     <ADTimeline reverse mode="alternate">
       {
         CareerEvents.map(ev => {
-          return <ADTimelineItem>
+          return <ADTimelineItem key={CareerEvents.indexOf(ev)}>
             <Text keyboard>{ev.SectionTitle}</Text>
             <List
               size='small'
