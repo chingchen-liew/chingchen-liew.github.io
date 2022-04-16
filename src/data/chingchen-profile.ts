@@ -23,13 +23,13 @@ export const ChingChenProfileData: ChingChenProfile = {
   Background: [
     {
       SectionTitle: "Manufacturing Technician Intern (Diploma)",
-      Content: `I had my internship as a manufacturing technician intern in a manufacturing company.
+      Content: `In 2013, I had my internship as a manufacturing technician intern in a manufacturing company.
                   At the end of my internship, I realised that manufacturing industry may not be something I'd like to pursue after graduation.
                   Little did I know, my next internship is gonna be a life changer, for real.`
     },
     {
       SectionTitle: "Application Developer Intern (Bachelor Degree)",
-      Content: `Moving forward to my 2nd internship, 
+      Content: `In 2015, moving forward to my 2nd internship, 
                   I was given an opportunity to have my internship in an IT Services company, as an application developer intern.
                   During my internship, I discovered my passion in software development, 
                   had adrenaline rush from the first day till the last day of my internship! Just please don't remind me how terrible my spaghetti code was.`
