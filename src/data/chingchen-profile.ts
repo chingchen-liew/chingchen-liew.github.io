@@ -35,7 +35,7 @@ export const ChingChenProfileData: ChingChenProfile = {
                   had adrenaline rush from the first day till the last day of my internship! Just please don't remind me how terrible my spaghetti code was.`
     },
     {
-      SectionTitle: "A Young & Innoncent Engineering Graduate",
+      SectionTitle: "A Young & Innocent Engineering Graduate",
       Content:
         `In Nov 2016, I graduated from an Engineering degree, major in Mechatronics Engineering (also known as Robotic to many others) 
           from Tunku Abdul Rahman University College at Kuala Lumpur, Malaysia. 
