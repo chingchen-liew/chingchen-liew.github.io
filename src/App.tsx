@@ -4,7 +4,9 @@ import ProfileContainer from './container/ProfileContainer';
 
 function App() {
   return (
-    <ProfileContainer />
+    <> 
+      <ProfileContainer />
+    </>
   );
 }
 

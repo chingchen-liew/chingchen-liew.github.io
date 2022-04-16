@@ -7,3 +7,17 @@
 .profile-avatar {
   margin-bottom: 1em;
 }
+
+#detailDrawerButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-width: 2px;
+  width: 100%;
+  background-color:lightsteelblue;   
+  z-index: 999;
+} 
+
+.moreDetailsText{
+  color: royalblue;
+}

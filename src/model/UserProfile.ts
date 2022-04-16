@@ -1,6 +1,6 @@
 export interface UserProfile {
   Name: string;
-  SubTitle?: string;
+  Subtitle?: string;
   Description: string;
   LinkedInURL: string;
   GitHubURL: string;
