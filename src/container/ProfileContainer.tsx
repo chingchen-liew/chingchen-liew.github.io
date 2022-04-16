@@ -7,7 +7,7 @@ const ProfileContainer = () => {
   const myProfile: ProfileCardProps = {
     User: {
       Name: "Liew Ching Chen",
-      SubTitle: "A Passionate Techie",
+      Subtitle: "A Passionate Techie",
       Description: "Hi, I am ChingChen, a Software Developer who based at Malaysia. I love software development, process improvement & reduce toil with automation!",
       LinkedInURL: "https://www.linkedin.com/in/liewchingchen/",
       GitHubURL: "https://github.com/chingchen-liew",

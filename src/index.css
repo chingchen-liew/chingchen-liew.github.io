@@ -8,6 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Fira Code', monospace;
   background-image: linear-gradient(#303030, #606060);
+  background-attachment: fixed;
 }
 
 #root {
