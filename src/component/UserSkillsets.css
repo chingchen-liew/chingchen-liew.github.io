@@ -12,5 +12,6 @@
 }
 
 .skill-list{
-  margin: 0.5em
+  margin: 0.5em;
+  width: 250px;
 }

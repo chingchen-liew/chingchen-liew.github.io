@@ -43,7 +43,7 @@ export const ChingChenProfileData: ChingChenProfile = {
           Yes, I still feel sorry that I took a scholarship that it could be given to someone else who actually wanted to be a Mechatronics/Robotic Engineer, unlike me. :)`
     },
     {
-      SectionTitle: "Dive Into the Software Development Industry as a Non-IT Graduate",
+      SectionTitle: "Before Diving Into the Software Development",
       Content:
         `Being a non-IT engineering graduate, 
           it may be or may be not difficult for us to secure a job in software development field depending on the university programme structure 
@@ -76,7 +76,7 @@ export const ChingChenProfileData: ChingChenProfile = {
           I am primarily a back-end software developer, judging from my shitty UI of this web app. 
           It has been more than half a decade working in the software development field, 
           I still find myself continuously gaining new knowledge and new challenges from my career.
-          Today, I still constantly asking "how" and "why" in my job, fun!
+          Today, I still constantly ask "how" and "why" in my job, fun!
       `
     }
   ],
@@ -85,7 +85,8 @@ export const ChingChenProfileData: ChingChenProfile = {
       SectionTitle: "2016",
       Description: [
         "Started in a .Net software house.",
-        "Web application maintenance & development.",
+        "Web app maintenance & development.",
+        "- Asp.Net, MSSQL, Bootstrap, jQuery -"
       ],
       Order: 0
     },
@@ -94,17 +95,19 @@ export const ChingChenProfileData: ChingChenProfile = {
       Description: [
         "E-commerce platform web app development.",
         "Cross-platform mobile app development.",
-        "Windows desktop application maintenance.",
-        "Upgrade & rewrite a legacy accounting software."
+        "Windows desktop app development & maintenance.",
+        "Upgrade & rewrite a legacy accounting software.",
+        "- Asp.Net Core, WinForms, Xamarin, MSSQL -"
       ],
       Order: 5
     },
     {
       SectionTitle: "2019 - 2020",
       Description: [
-        "Database query optimisation & data wrangling for reports & analysis.",
+        "Query optimisation & data wrangling for reports & analysis.",
         "System planning & design (primarily backend).",
-        "Technical planning & discussion with stakeholders."
+        "Technical planning & discussion with stakeholders.",
+        "- MSSQL, .Net Core -"
       ],
       Order: 10
     },
@@ -114,14 +117,17 @@ export const ChingChenProfileData: ChingChenProfile = {
         "CI/CD pipeline with on-prem & cloud technology.",
         "Hospital Information System (HIS) upgrade implementation.",
         "Business Intelligence project in Healthcare industry.",
-        "End-to-end pipeline from data ingestion to data visualisation.",
+        "Build pipeline from data ingestion to data visualisation.",
+        "- OracleSQL, PowerShell, PowerBI, Docker, Jenkins, AWS -"
       ],
       Order: 15
     },
     {
       SectionTitle: "2022 - Present",
       Description: [
-        "Software (Oil & Gas industry) development & maintenance, utilising cloud services.",
+        "Software development & maintenance, cleaning tech debts.",
+        "CI/CD on Azure Pipeline (yaml).",
+        "- Azure, .Net, .Net Core -"
       ],
       Order: 20
     },
