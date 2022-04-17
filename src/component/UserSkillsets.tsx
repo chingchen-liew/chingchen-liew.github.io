@@ -12,27 +12,26 @@ const UserSkillsets = (props: UserSkillsetsProps) => {
   return <section id='skillsetContainer'>
     {
       Skillsets.map(s => {
-        return <List header={s.Category}
-          bordered
-          key={Skillsets.indexOf(s)}
-          className='skill-list'
-          style={{ width: "200px" }}
-          dataSource={s.Skills}
-          renderItem={
-            (item: UserSkill) => (
-              <List.Item key={s.Skills.indexOf(item)}>
-                <Text>
-                  {item.Skill}
-                  {
-                    // Only show link when it is available.
-                    item.ReferenceLink &&
-                    <Tooltip title='More Info'><Link href={item.ReferenceLink} target='_blank'> <LinkOutlined /></Link></Tooltip>
-                  }
-                </Text>
-              </List.Item>
-            )
-          }
-        />
+        return (
+          <List header={s.Category}
+            bordered className='skill-list'
+            key={Skillsets.indexOf(s)}
+            dataSource={s.Skills}
+            renderItem={
+              (item: UserSkill) => (
+                <List.Item key={s.Skills.indexOf(item)}>
+                  <Text>
+                    {item.Skill}
+
+                    {/*Only show link when it is available.*/}
+                    {item.ReferenceLink &&
+                      <Tooltip title='More Info'><Link href={item.ReferenceLink} target='_blank'> <LinkOutlined /></Link></Tooltip>
+                    }
+                  </Text>
+                </List.Item>
+              )
+            } />
+        )
       })
     }
   </section >
