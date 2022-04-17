@@ -4,4 +4,5 @@ import { ProfileDetailProps } from "./ProfileDetailProps";
 export interface ProfileCardProps {
   User: UserProfile;
   Detail?: ProfileDetailProps;
+  SendAnalyticEventForViewMoreDetail?: () => void;
 }

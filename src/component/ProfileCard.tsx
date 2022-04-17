@@ -8,7 +8,7 @@ import ProfileDetail from './ProfileDetail';
 
 const ProfileCard = (props: ProfileCardProps) => {
   const { Title, Text, Link } = Typography;
-  const { User } = props;
+  const { User, SendAnalyticEventForViewMoreDetail: SendViewMoreDetailsEvent } = props;
   const [isShowProfileDetail, setIsShowProfileDetail] = useState(false);
 
   return <Card className='profile-card'
@@ -43,7 +43,11 @@ const ProfileCard = (props: ProfileCardProps) => {
     <Text>{User.Description}</Text>
     <br></br>
     <br></br>
-    <Button type="dashed" onClick={() => setIsShowProfileDetail(true)}>
+    <Button type="dashed"
+      onClick={() => {
+        setIsShowProfileDetail(true);
+        SendViewMoreDetailsEvent && SendViewMoreDetailsEvent();
+      }}>
       <Text className='moreDetailsText' strong> <ProfileOutlined /> More details!</Text>
     </Button>
 
