@@ -12,9 +12,9 @@ interface ChingChenProfile {
 
 export const ChingChenProfileData: ChingChenProfile = {
   Info: {
-    Name: "Liew Ching Chen",
-    Subtitle: "A Passionate Techie",
-    Description: "Hi, I am ChingChen, a Software Developer who based at Malaysia. I love software development, process improvement & reduce toil with automation!",
+    Name: "Liew Ching Chen",    
+    Subtitle: "A Passionate Techie 🧑🏻‍💻",
+    Description: "Hi, I am ChingChen, a Software Developer (primarily a backend guy) who based at Malaysia. I love software development, process improvement & reduce toil with automation!",
     LinkedInURL: "https://www.linkedin.com/in/liewchingchen/",
     GitHubURL: "https://github.com/chingchen-liew",
     EmailAddress: "liewchingchen@gmail.com",
