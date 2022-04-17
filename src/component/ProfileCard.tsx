@@ -45,7 +45,7 @@ const ProfileCard = (props: ProfileCardProps) => {
         closable={false}
         onClose={() => setIsShowProfileDetail(false)}
         visible={isShowProfileDetail}
-        height="100%"
+        height="95%"
         key="bottom"
       >
         <Button id="detailDrawerButton" onClick={() => setIsShowProfileDetail(false)}>

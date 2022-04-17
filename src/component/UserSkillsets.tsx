@@ -12,8 +12,8 @@ const UserSkillsets = (props: UserSkillsetsProps) => {
   return <section id='skillsetContainer'>
     {
       Skillsets.map(s => {
-        return (
-          <List header={s.Category}
+        return ( 
+          <List header={`- ${s.Category} -`}
             bordered className='skill-list'
             key={Skillsets.indexOf(s)}
             dataSource={s.Skills}
