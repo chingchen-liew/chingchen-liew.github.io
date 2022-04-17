@@ -43,10 +43,24 @@ export const ChingChenProfileData: ChingChenProfile = {
           Yes, I still feel sorry that I took a scholarship that it could be given to someone else who actually wanted to be a Mechatronics/Robotic Engineer, unlike me. :)`
     },
     {
-      SectionTitle: "Starting a career in IT industry!",
+      SectionTitle: "Dive Into the Software Development Industry as a Non-IT Graduate",
+      Content:
+        `Being a non-IT engineering graduate, 
+          it may be or may be not difficult for us to secure a job in software development field depending on the university programme structure 
+          (and/or self-studies during leisure time). Most of the non-IT engineering programme only introduce basic programming courses. 
+          Fortunately, free/paid online learning materials are all over the internet. 
+          One of the main challenges is, we don't know what we don't know at most of the times. 
+          Gotta start to understand the industry by reading the job description in the job ads to find out the popular skillsets and industry requirement, 
+          it is probably a good place to start and a great indicator too! As a starter, learn the programming language, 
+          understand the general programming fundamental knowledge such as SOLID, DRY, YAGNI, OOP, version control etc.  
+          Most importantly, be curious! :D       
+        `
+    },
+    {
+      SectionTitle: "Starting a Career in the Industry!",
       Content: `With the lessons learnt from my internship, I headed right into the IT industry (software development field) without a second thought. 
                   I gratefully secured a position as a Software Developer in a .Net software house. 
-                  In Dec 2016, officially started my career in IT.`
+                  In Dec 2016, officially started my career in software development field.`
     },
     {
       SectionTitle: "Part-time Postgraduate Studies",
@@ -70,7 +84,7 @@ export const ChingChenProfileData: ChingChenProfile = {
     {
       SectionTitle: "2016",
       Description: [
-        "Started as a junior software developer in a .Net software house.",
+        "Started in a .Net software house.",
         "Web application maintenance & development.",
       ],
       Order: 0
@@ -83,7 +97,7 @@ export const ChingChenProfileData: ChingChenProfile = {
         "Windows desktop application maintenance.",
         "Upgrade & rewrite a legacy accounting software."
       ],
-      Order: 1
+      Order: 5
     },
     {
       SectionTitle: "2019 - 2020",
@@ -92,7 +106,7 @@ export const ChingChenProfileData: ChingChenProfile = {
         "System planning & design (primarily backend).",
         "Technical planning & discussion with stakeholders."
       ],
-      Order: 2
+      Order: 10
     },
     {
       SectionTitle: "2021",
@@ -102,14 +116,14 @@ export const ChingChenProfileData: ChingChenProfile = {
         "Business Intelligence project in Healthcare industry.",
         "End-to-end pipeline from data ingestion to data visualisation.",
       ],
-      Order: 3
+      Order: 15
     },
     {
       SectionTitle: "2022 - Present",
       Description: [
         "Software (Oil & Gas industry) development & maintenance, utilising cloud services.",
       ],
-      Order: 4
+      Order: 20
     },
   ],
   Skillsets: [
@@ -132,12 +146,12 @@ export const ChingChenProfileData: ChingChenProfile = {
         { Skill: "Oracle SQL", ReferenceLink: "" },
         { Skill: "Snowflake", ReferenceLink: "https://www.snowflake.com/cloud-data-platform/" },
         { Skill: "Azure SQL Database", ReferenceLink: "" },
-        { Skill: "SQLite", ReferenceLink: "" }, 
+        { Skill: "SQLite", ReferenceLink: "" },
         { Skill: "ETL", ReferenceLink: "https://www.ibm.com/cloud/learn/etl" },
         { Skill: "ELT", ReferenceLink: "https://www.ibm.com/cloud/learn/elt" },
         { Skill: "Data Warehouse", ReferenceLink: "" },
         { Skill: "Relational DB", ReferenceLink: "" },
-        { Skill: "NoSQL", ReferenceLink: "" }, 
+        { Skill: "NoSQL", ReferenceLink: "" },
       ]
     },
     {
@@ -147,7 +161,7 @@ export const ChingChenProfileData: ChingChenProfile = {
         { Skill: ".Net Core / .Net 5+", ReferenceLink: "" },
         { Skill: ".Net Standard", ReferenceLink: "https://docs.microsoft.com/en-us/dotnet/standard/net-standard" },
         { Skill: "WinForms", ReferenceLink: "https://docs.microsoft.com/en-us/dotnet/desktop/winforms/overview" },
-        { Skill: "Xamarin", ReferenceLink: "https://dotnet.microsoft.com/en-us/apps/xamarin" }, 
+        { Skill: "Xamarin", ReferenceLink: "https://dotnet.microsoft.com/en-us/apps/xamarin" },
       ]
     },
     {
@@ -159,7 +173,7 @@ export const ChingChenProfileData: ChingChenProfile = {
         { Skill: "Bootstrap", ReferenceLink: "https://getbootstrap.com/" },
         { Skill: "jQuery", ReferenceLink: "https://jquery.com/" },
         { Skill: "ReactJS", ReferenceLink: "https://reactjs.org/" },
-        { Skill: "REST API", ReferenceLink: "" }, 
+        { Skill: "REST API", ReferenceLink: "" },
       ]
     },
     {
@@ -169,7 +183,7 @@ export const ChingChenProfileData: ChingChenProfile = {
         { Skill: "Azure", ReferenceLink: "https://azure.microsoft.com/en-us/" },
         { Skill: "Docker", ReferenceLink: "https://www.docker.com/" },
         { Skill: "PowerBI", ReferenceLink: "" },
-        { Skill: "Version Control", ReferenceLink: "" }, 
+        { Skill: "Version Control", ReferenceLink: "" },
       ]
     }
   ]
