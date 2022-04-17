@@ -22,28 +22,28 @@ export const ChingChenProfileData: ChingChenProfile = {
   },
   Background: [
     {
-      SectionTitle: "Manufacturing Technician Intern (Diploma)",
+      SectionTitle: "Intern - Manufacturing Technician",
       Content: `In 2013, I had my internship as a manufacturing technician intern in a manufacturing company.
                   At the end of my internship, I realised that manufacturing industry may not be something I'd like to pursue after graduation.
                   Little did I know, my next internship is gonna be a life changer, for real.`
     },
     {
-      SectionTitle: "Application Developer Intern (Bachelor Degree)",
+      SectionTitle: "Intern - Application Developer",
       Content: `In 2015, moving forward to my 2nd internship, 
                   I was given an opportunity to have my internship in an IT Services company, as an application developer intern.
                   During my internship, I discovered my passion in software development, 
                   had adrenaline rush from the first day till the last day of my internship! Just please don't remind me how terrible my spaghetti code was.`
     },
     {
-      SectionTitle: "A Young & Innocent Engineering Graduate",
+      SectionTitle: "As a Young & Innocent Grad",
       Content:
-        `In Nov 2016, I graduated from an Engineering degree, major in Mechatronics Engineering (also known as Robotic to many others) 
-          from Tunku Abdul Rahman University College at Kuala Lumpur, Malaysia. 
+        `In Nov 2016, I graduated from an Engineering degree, major in Mechatronics Engineering (also known as Robotics to many others). 
           During my Bachelor Degree studies, I was awarded to the merit scholarship. 
-          Yes, I still feel sorry that I took a scholarship that it could be given to someone else who actually wanted to be a Mechatronics/Robotic Engineer, unlike me. :)`
+          Yes, I still feel sorry that I took a scholarship that it could be given to someone else who actually wanted to be a Mechatronics/Robotic Engineer, unlike me.
+          At this point of time, I knew I wanted to go into the IT industry.`
     },
     {
-      SectionTitle: "Before Diving Into the Software Development",
+      SectionTitle: "Before Diving Into the Industry",
       Content:
         `Being a non-IT engineering graduate, 
           it may be or may be not difficult for us to secure a job in software development field depending on the university programme structure 
@@ -134,12 +134,13 @@ export const ChingChenProfileData: ChingChenProfile = {
   ],
   Skillsets: [
     {
-      Category: "Programming Language",
+      Category: "Language",
       Skills: [
         { Skill: "C#", ReferenceLink: "" },
         { Skill: "VB.Net", ReferenceLink: "" },
         { Skill: "Javascript", ReferenceLink: "" },
         { Skill: "Typescript", ReferenceLink: "" },
+        { Skill: "PowerShell", ReferenceLink: "" },
         { Skill: "Python 3+", ReferenceLink: "" },
         { Skill: "SQL", ReferenceLink: "" },
       ]
@@ -161,7 +162,7 @@ export const ChingChenProfileData: ChingChenProfile = {
       ]
     },
     {
-      Category: "Software Development",
+      Category: "Software Dev",
       Skills: [
         { Skill: ".Net Framework", ReferenceLink: "" },
         { Skill: ".Net Core / .Net 5+", ReferenceLink: "" },
@@ -171,7 +172,7 @@ export const ChingChenProfileData: ChingChenProfile = {
       ]
     },
     {
-      Category: "Web Development",
+      Category: "Web Dev",
       Skills: [
         { Skill: "ASP.Net", ReferenceLink: "" },
         { Skill: "ASP.Net Core", ReferenceLink: "" },
